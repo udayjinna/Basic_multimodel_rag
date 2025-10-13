@@ -292,7 +292,7 @@ if uploaded_file and google_api_key:
                     try:
                         # Initialize LLM
                         llm = ChatGoogleGenerativeAI(
-                            model="gemini-1.5-pro-latest",
+                            model="gemini-2.5-flash",
                             google_api_key=google_api_key,
                             temperature=0
                         )
